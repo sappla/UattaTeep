@@ -2,9 +2,108 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>UattaTeep</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:500,700" rel="stylesheet">
   </head>
   <body>
+
+
+
+
+<div class="site-wrapper">
+
+<h1>XXXXXXXXX</h1>
+
+<button class="bill-tag-container" id="bill-tag" (click)="onClickMe()">
+  <p id="currency">$</p>
+  <p id="bill-display">0.00</p>
+</button>
+
+
+<div id="pad-wrapper">
+  <div class="pad-container">
+    <div class="pad-row">
+    <p class="pad-key"><button id="key-1" (click)="onClickMe()">1</button></p>
+    <p class="pad-key"><button id="key-2" (click)="onClickMe()">2</button></p>
+    <p class="pad-key"><button id="key-3" (click)="onClickMe()">3</button></p>
+  </div>
+  <div class="pad-row">
+    <p class="pad-key"><button id="key-4" (click)="onClickMe()">4</button></p>
+    <p class="pad-key"><button id="key-5" (click)="onClickMe()">5</button></p>
+    <p class="pad-key"><button id="key-6" (click)="onClickMe()">6</button></p>
+  </div>
+  <div class="pad-row">
+    <p class="pad-key"><button id="key-7" (click)="onClickMe()">7</button></p>
+    <p class="pad-key"><button id="key-8" (click)="onClickMe()">8</button></p>
+    <p class="pad-key"><button id="key-9" (click)="onClickMe()">9</button></p>
+  </div>
+  <div class="pad-row">
+    <p class="pad-key"><button id="key-dot" (click)="onClickMe()">.</button></p>
+    <p class="pad-key"><button id="key-0" (click)="onClickMe()">0</button></p>
+    <p class="pad-key"><button id="key-del" (click)="onClickMe()">del</button></p>
+  </div>
+  <div class="pad-row">
+    <p class="pad-key"><button id="key-ok" (click)="onClickMe()">ok</button></p>
+  </div>
+  </div>
+</div>
+
+
+<div class="bill-wrapper">
+
+  <!-- Hidden -->
+  <div class="container" id="bill-container">
+    <p id="bill-label">Bill&nbsp;</p>
+    <p id="bill-var">$0.00</p>
+  </div>
+  <!-- -->
+
+  <div class="container" id="tip-container">
+    <p id="tip-label">Tip&nbsp;</p>
+    <p id="tip-var">$0.00</p>
+  </div>
+
+  <div class="container" id="tip-per-container">
+    <p id="tip-perc-var">0.0 %</p>
+  </div>
+
+</div>
+
+
+<div class="tips-container">
+  <p><button class="default-tip-box" id="def-tip-1" (click)="onClickMe()">0.00</button></p>
+  <p><button class="default-tip-box" id="def-tip-2" (click)="onClickMe()">0.00</button></p>
+  <p><button class="default-tip-box" id="def-tip-3" (click)="onClickMe()">0.00</button></p>
+  <p><button class="default-tip-box" id="def-tip-4" (click)="onClickMe()">0.00</button></p>
+</div>
+
+<div class="bill-wrapper">
+
+  <div class="container" id="total-container">
+    <p id="total-label">Total&nbsp;</p>
+    <p id="total-var">$0.00</p>
+  </div>
+
+</div>
+
+
+<div class="wrapper">
+  <div class="container" id="tip-btn-container">
+    <p><button class="tip-btn" id="less-tip-btn" (click)="onClickMe()">-</button></p>
+    <p><button class="tip-btn" id="more-tip-btn" (click)="onClickMe()">+</button></p>
+  </div>
+</div>
+
+
+<!-- Hidden -->
+<div id="bill-input-container">
+  <input id="bill-input" type="text" placeholder="Enter bill">
+  <button id="calculate-btn" (click)="onClickMe()">GO!</button>
+</div>
+<!-- -->
+
+</div>
 
   </body>
 </html>

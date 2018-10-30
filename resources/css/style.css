@@ -1,0 +1,146 @@
+
+body,
+button {
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  font-weight: 500;
+}
+.site-wrapper {
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+
+
+#plus-btn {
+  flex-grow: 0.5;
+}
+
+
+
+.tips-container {
+  display: flex;
+}
+
+.default-tip-box {
+  flex-grow: 1;
+  border: 1px dashed red;
+  margin: 0 10px;
+  text-align: center;
+}
+
+#tip-btn-container {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.tip-btn {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.pad-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 15px;
+}
+
+.pad-row {
+  display: flex;
+  margin: 0 auto;
+}
+
+.pad-key {
+  margin: 1px;
+}
+
+p.pad-key button {
+  border: 0;
+  font-size: 20px;
+  height: 70px;
+  width: 70px;
+}
+
+#key-ok {
+  width: 214px;
+}
+
+.bill-tag-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  padding: 0px;
+  font-size: 34px;
+  border: 0;
+}
+
+#bill-label,
+#bill-var {
+  display: none;
+}
+
+#bill-input-container {
+  display: none;
+}
+#pad-wrapper {
+  display: none;
+}
+
+.default-tip-box {
+  width: 80px;
+  height: 28px;
+  border-radius: 16px;
+  border: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.bill-wrapper {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.tips-container {
+  diplay: flex;
+  justify-content: center;
+}
+
+#total-container {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+#tip-btn-container {
+  diplay: flex;
+  justify-content: center;
+}
+
+.tip-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 0;
+  font-size: 24px;
+}
