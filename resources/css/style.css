@@ -103,7 +103,7 @@ p.pad-key button {
   display: none;
 }
 #pad-wrapper {
-  display: none;
+  //display: none;
 }
 
 .default-tip-box {
